@@ -8,7 +8,7 @@ void main(void)
 {
     int NUM;
     long CUA, SUC = 0;
-    printf("\nIngrese un numero entero -0 para terminar-:\t");
+    printf("\nIngrese un numero entero -0 para terminar:\t");
     scanf("%d", &NUM);
     while (NUM)
     {

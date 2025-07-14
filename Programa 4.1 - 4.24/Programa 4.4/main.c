@@ -4,8 +4,8 @@
 El programa utiliza funciones en las que se usan diferentes tipos de
 variables.  */
 
-void f1(void);
-void f2(void);
+int f1(void);
+int f2(void);
 int f3(void);
 int f4(void);
 
@@ -42,7 +42,7 @@ int f3(void)
 
 int f4(void)
 {
-    int K = 5;
-    K = k + ::K;
-    return(k);
+    int localK = 5;
+    localK = localK + K;
+    return(localK);
 }

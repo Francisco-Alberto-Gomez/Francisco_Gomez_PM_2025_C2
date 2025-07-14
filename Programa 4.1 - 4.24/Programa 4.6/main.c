@@ -10,7 +10,8 @@ void main(void)
     for (I = 1; I <= 3; I++)
     {
         printf("\n\nValor de K antes de llamar a la funcion: %d", ++K);
-        printf("\nValor de K despues de llamar a la funcion: %d", f1(&K));
+        f1(&K);
+        printf("\nValor de K despues de llamar a la funcion: %d", K);
     }
 }
 
